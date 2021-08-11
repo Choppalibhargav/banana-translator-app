@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+    margin: 0rem;
+    padding: 0rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+:root{
+    --primary-color:#FCD34D;
+    --off-white:#111827;
+    --dark-gray:#6B7280;
+}
+.hero-img{
+    max-width: 100px;
+    display: block;
+    margin:auto
+}
+
+.nav-brand{
+
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Style Script', cursive;
+    padding: 2rem;
+}
+
+
+textarea {
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin:1rem;
+    padding: 1rem;
+    text-align:center;
+}
+#btn-translate{
+    color: white ;
+    background-color: var(--off-white);
+    width: 30%;
+    height: 7vh;
+}
+
+#output-head{
+    font-family: 'Style Script', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
